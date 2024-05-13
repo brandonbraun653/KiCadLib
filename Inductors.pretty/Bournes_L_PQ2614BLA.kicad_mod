@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -11.938 -11.938 0)
+		(at 11.557 11.43 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4ceeafee-7ba1-42fa-b3fe-7b3b7c1032d8")
@@ -67,18 +67,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -3.048 -10.16) (xy 3.175 -10.16) (xy 3.175 -5.207) (xy -3.048 -5.207)
-		)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "8ba70fea-f742-49dc-940d-cc0cff2fdc9c")
-	)
 	(fp_rect
 		(start -14.0335 -10.795)
 		(end 14.0335 10.16)
@@ -101,6 +89,14 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" smd roundrect
+		(at 0 -7.72)
+		(size 6.35 5.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "27dbf9e0-f9fb-4820-9ba1-0db72a4c2d08")
 	)
 	(pad "1" smd roundrect
 		(at -5.075 14.355)
@@ -144,6 +140,17 @@
 			(pts
 				(xy -14.0335 -10.795) (xy 14.0335 -10.795) (xy 14.0335 10.16) (xy -14.0335 10.16)
 			)
+		)
+	)
+	(model "/home/brandon/git/projects/Ichnaea/hw/lib/KiCadLib/3DModels/PQ2614BLA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 -90)
 		)
 	)
 )
