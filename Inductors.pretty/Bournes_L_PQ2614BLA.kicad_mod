@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Bournes_L_PQ2614BLA"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -117,7 +117,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layer "F.Cu")
 		(uuid "840cd499-e844-4e14-af76-aaa531046271")
 		(hatch edge 0.5)
 		(connect_pads
