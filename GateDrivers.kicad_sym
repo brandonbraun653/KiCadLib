@@ -535,7 +535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TDFN-10-1EP_2x3mm_P0.5mm_EP0.9x2mm_ThermalVias"
+		(property "Footprint" "DFN:TDFN-10-1EP_4x4mm_P0.8mm_EP2.6x3mm"
 			(at -0.254 -21.844 0)
 			(effects
 				(font
@@ -614,6 +614,24 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -11.43 0)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
